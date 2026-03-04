@@ -69,7 +69,6 @@ app.get("/paid", (req, res) => {
   res.type("html").send(`
     <h2>Payment redirect works ✅</h2>
     <p>Если ты здесь после оплаты, значит редирект Stripe настроен правильно.</p>
-    <pre>${escapeHtml(JSON.stringify(req.query, null, 2))}</pre>
     <a href="/">Back</a>
   `);
 });
