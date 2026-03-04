@@ -1,13 +1,12 @@
 {
   "name": "auth-work",
   "version": "1.0.0",
-  "description": "Render service for auth & payments практическая",
-  "main": "server.js",
   "type": "commonjs",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
+    "@clerk/express": "^1.0.0",
     "express": "^4.19.2"
   },
   "engines": {
